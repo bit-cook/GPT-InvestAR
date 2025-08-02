@@ -12,5 +12,5 @@
     "feature_test_df_save_directory":"<directory where gpt generated feature scores for test set for each symbol and date will be saved>",
     "final_train_df_save_path":"<pandas df containing target and feature columns for train set saved as pickle file>",
     "final_test_df_save_path":"<pandas df containing target and feature columns for test set saved as pickle file>",
-    "llm_system_prompt":"<Your own prompt>. Give the answer in json format with only one key that is: 'score'"
+    "llm_system_prompt":"Assume the role of a stock analyst who analyses fundamental data. You are given the annual report of the company. Your task is to give a continuous valued score between 0 and 100 for the asked question. Higher score signifies that the conditions are more likely to positively impact the stock price of the company. Give the answer in json format with only one key that is: 'score'"
 }
