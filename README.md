@@ -1,6 +1,15 @@
 # GPT-InvestAR
 
-Enhancing Stock Investment Strategies through Annual Report Analysis with Large Language Models
+**Enhancing Stock Investment Strategies through Annual Report Analysis with Large Language Models**
+
+---  
+
+### Updates
+
+- The system prompt used for analysis in the paper has been updated in **`config.json`**.
+- All questions used to generate features have been updated in **`questions.json`**.
+
+---  
 
 This repository contains a set of tools and scripts designed to enhance stock investment strategies through the analysis of annual reports using Large Language Models. The components in this repository are organized as follows:
 
